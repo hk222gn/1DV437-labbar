@@ -24,3 +24,5 @@ C:\Users\Hakurei\Documents\GitHub\Supesu\Labb1\Labb1\obj\x86\Debug\Labb1.csprojR
 C:\Users\Hakurei\Documents\GitHub\Supesu\Labb1\Labb1\obj\x86\Debug\Labb1.exe
 C:\Users\Hakurei\Documents\GitHub\Supesu\Labb1\Labb1\obj\x86\Debug\Labb1.pdb
 C:\Users\Hakurei\Documents\GitHub\Supesu\Labb1\Labb1\bin\Windows\Debug\Content\Ball.png
+C:\Users\Hakurei\Documents\GitHub\1DV437\1DV437-labbar\Labb1\Labb1\obj\x86\Debug\Labb1.exe
+C:\Users\Hakurei\Documents\GitHub\1DV437\1DV437-labbar\Labb1\Labb1\obj\x86\Debug\Labb1.pdb
