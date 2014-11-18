@@ -25,3 +25,4 @@ C:\Users\Hakurei\Documents\GitHub\1DV437\1DV437-labbar\Labb2\Labb2Upg4\Labb2Upg4
 C:\Users\Hakurei\Documents\GitHub\1DV437\1DV437-labbar\Labb2\Labb2Upg4\Labb2Upg4\bin\Windows\Debug\Content\particlesmoke.png
 C:\Users\Hakurei\Documents\GitHub\1DV437\1DV437-labbar\Labb2\Labb2Upg4\Labb2Upg4\bin\Windows\Debug\Content\spark.png
 C:\Users\Hakurei\Documents\GitHub\1DV437\1DV437-labbar\Labb2\Labb2Upg4\Labb2Upg4\bin\Windows\Debug\Content\shockwave.png
+C:\Users\Hakurei\Documents\GitHub\1DV437\1DV437-labbar\Labb2\Labb2Upg4\Labb2Upg4\obj\x86\Debug\Labb2Upg4.csprojResolveAssemblyReference.cache
