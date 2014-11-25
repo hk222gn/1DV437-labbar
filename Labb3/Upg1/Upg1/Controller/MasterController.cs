@@ -84,8 +84,8 @@ namespace Upg1.Controller
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
-                Exit();
+            //if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
+                //Exit();
 
             // TODO: Add your update logic here
 
@@ -95,7 +95,7 @@ namespace Upg1.Controller
 
             Vector2 pos = m_gameCon.HandleMouseInput(m_camera);
             if (pos != Vector2.Zero)
-                m_bs.CheckForHit(pos, m_camera.ConvertToModelCoords(new Vector2(m_camera.m_mouseHitAreaX + m_camera.m_padding, m_camera.m_mouseHitAreaY + m_camera.m_padding)));
+                m_bs.CheckForHit(pos);
 
             base.Update(gameTime);
         }

@@ -12,6 +12,8 @@ namespace Upg1.Model
     {
         private List<Ball> m_balls = new List<Ball>();
         private const int MAX_BALLS = 10;
+        private float m_mouseAreaX = 0.05f;
+        private float m_mouseAreaY = 0.05f;
 
         public ReadOnlyCollection<Ball> Balls
         {
@@ -48,16 +50,16 @@ namespace Upg1.Model
             }
         }
 
-        internal void CheckForHit(Vector2 a_mousePos, Vector2 a_mouseArea)
+        internal void CheckForHit(Vector2 a_mousePos)
         {
             foreach (Ball ball in m_balls)
             {
                 if (ball.alive)
                 {
-                    if (ball.Position.X + ball.Diameter / 2 > a_mousePos.X - a_mouseArea.X
-                        && ball.Position.X - ball.Diameter / 2 < a_mousePos.X + a_mouseArea.X
-                        && ball.Position.Y + ball.Diameter / 2 > a_mousePos.Y - a_mouseArea.Y
-                        && ball.Position.Y - ball.Diameter / 2 < a_mousePos.Y + a_mouseArea.Y)
+                    if (ball.Position.X + ball.Diameter / 2 > a_mousePos.X - m_mouseAreaX
+                        && ball.Position.X - ball.Diameter / 2 < a_mousePos.X + m_mouseAreaX
+                        && ball.Position.Y + ball.Diameter / 2 > a_mousePos.Y - m_mouseAreaY
+                        && ball.Position.Y - ball.Diameter / 2 < a_mousePos.Y + m_mouseAreaY)
                         ball.alive = false;
                 }
             }

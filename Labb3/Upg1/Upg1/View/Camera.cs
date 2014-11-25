@@ -15,8 +15,6 @@ namespace Upg1.View
         public int m_padding;
         public int m_frameWidth;
         public int m_frameHeight;
-        public float m_mouseHitAreaX = 20;
-        public float m_mouseHitAreaY = 20;
 
         public Camera(Viewport a_viewport)
         {
